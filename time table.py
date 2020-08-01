@@ -1,27 +1,29 @@
-Timetable={'monday':
+Timetable={'monday':[
               {'h1':
                    {'sub': 'maths',
                     'Tchr': 'lulu',
                     'Rno': '129'
                     }
+               },
               {'h2':
                     {'sub': 'maths',
                     'Tchr': 'lulu',
                     'Rno': '129'
-                    },
+                    }
+               },
                {'h3':
                     {'sub': 'maths',
                     'Tchr': 'lulu',
                     'Rno': '129'
                     },
+                },
                {'h4':
                     {'sub': 'maths',
                     'Tchr': 'lulu',
                     'Rno': '129'
                     },
                }
-
-
+                ],
 
           'tuesday':
               {'h1':
@@ -36,6 +38,7 @@ Timetable={'monday':
                     'Tchr': 'sam',
                     'Rno': '222'
                     }
-               },
+               }
+        }
 
 
