@@ -1,5 +1,5 @@
-timetable={'monday':
-               [
+timetable={
+            'monday': {
                 {'h1':
                      {'sub':'maths',
                      'Tchr':'lf',
@@ -30,8 +30,8 @@ timetable={'monday':
              'Rno':'124'
              }
             }
-               ],
-           'tuesday':[
+               },
+           'tuesday':{
                 {'h1':
                  {'sub':'maths',
                  'Tchr':'lf',
@@ -62,8 +62,8 @@ timetable={'monday':
              'Rno':'124'
              }
             }
-           ],
-            'wednesday':[
+           },
+            'wednesday':{
                 {'h1':
                  {'sub':'maths',
                  'Tchr':'lf',
@@ -94,8 +94,8 @@ timetable={'monday':
              'Rno':'124'
              }
             }
-           ],
-            'thursday':[
+            },
+            'thursday':{
                 {'h1':
                  {'sub':'maths',
                  'Tchr':'lf',
@@ -126,8 +126,8 @@ timetable={'monday':
              'Rno':'124'
              }
             }
-           ],
-            'friday':[
+            },
+            'friday':{
                 {'h1':
                  {'sub':'maths',
                  'Tchr':'lf',
@@ -158,13 +158,13 @@ timetable={'monday':
              'Rno':'124'
              }
             }
-           ]
+            }
            }
 
-print(timetable['monday'][0]['h1']['sub'])
-print(timetable['tuesday'][1]['h2']['sub'])
-print(timetable['wednesday'][2]['h3']['sub'])
-print(timetable['thursday'][3]['h4']['sub'])
-print(timetable['friday'][4]['h5']['sub'])
+print(timetable['monday']['h1']['sub'])
+print(timetable['tuesday']['h2']['sub'])
+print(timetable['wednesday']['h3']['sub'])
+print(timetable['thursday']['h4']['sub'])
+print(timetable['friday']['h5']['sub'])
 
 
