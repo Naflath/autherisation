@@ -1,0 +1,23 @@
+timetable={
+            'monday':{
+                'h1':{
+                    'sub':'maths',
+                    'tchr':'lf',
+                    'rno':'122'},
+                'h2':{
+                     'sub':'maths',
+                     'tchr':'lf',
+                     'rno':'999'},
+                'h3':{
+                     'sub':'py',
+                     'Tchr':'ar',
+                     'Rno':'122'},
+                'h4':{
+                     'sub':'st',
+                     'Tchr':'nz',
+                     'Rno':'123'},
+                'h5':{
+                      'sub':'se',
+                       'Tchr':'al',
+                       'Rno':'124'}
+                     }}
